@@ -1,0 +1,334 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  
+}
+
+
+/* google fonts */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500;1,900&display=swap');
+
+body {
+  min-height: 100vh;
+}
+
+/* header */
+
+.navbar img{
+  width: 125px;
+}
+
+.navbar {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #f3f4f6;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .menu li {
+  display: inline-block;
+}
+
+.menu-btn {
+  display: none;
+  color: #4a4a4b;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.navbar .menu li a {
+  display: block;
+  margin-left: 15px;
+  color: #4a4a4b;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.navbar .menu li .active{
+  border-bottom: 4px dashed  #ff0606;
+}
+
+.navbar .menu li a i {
+  color: #ff0606;
+  font-size: 30px;
+}
+
+.navbar .menu li a i:hover{
+  color: #ffd700;
+  opacity: 0.7;
+  transition: 0.7s;
+  transform: scale(2.0);
+}
+
+/* Content */
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+.content {
+  background-image: url(/images/iphone15maxproSUNWITHOUTBL.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #4a4a4b;
+  height: 100vh; 
+}
+
+.content p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.content button{
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  background-color: #4a4a4b;
+  color: #f3f4f6;
+  border-radius: 15px;
+}
+
+.content button:hover{
+  background-color: #ff0606;
+  color: #ffd700;
+  transform: scale(1.3);
+  transition: 0.7s;
+}
+
+.pheading {
+  text-align: center;
+  margin: 50px 0;
+  color: #4a4a4b;
+}
+
+/* STYLING FOR PRODUCT ITEM CARDS START HERE! */
+
+.second{
+  padding: 10px 5%;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
+}
+
+
+.products .cards{
+  width: 300px;
+  background: #f3f4f6;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.products .cards img{
+  height: 250px;
+  width: 100%;
+}
+
+.products .cards .brand {
+  padding: 5px 20px;
+  opacity: 0.8;
+  color: #ff0606;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.products .cards .title{
+  font-weight: 800;
+  font-size: 20px;
+  color: #4a4a4b;
+  padding: 0 20px;
+}
+
+.products .cards .box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.products .cards .box .price{
+  font-size: 20px;
+  color: #4a4a4b;
+  font-weight: bold;
+}
+
+.products .cards .box .btn{
+  font-size: 15px;
+  color: #ff0606;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 1px dashed  #ff0606;
+  border-radius: 20px;
+}
+
+.products .cards .box .btn:hover{
+  background-color: #ff0606;
+  color: #ffd700;
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.7s;
+
+}
+
+
+/* STYLING START FOR CONTACT US PAGE ! */ 
+
+.contactcontainer {
+  width: 70%;
+  background: #f3f4f6;
+  border-radius: 10px;
+  padding: 15px 30px;
+  display: flex; 
+  flex-direction: column; 
+  flex-wrap: wrap;
+  border: 2px solid #ff0606;
+ 
+  align-items: center;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+
+}
+
+.contactcontainer h1{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+} 
+
+.contactcontainer form .row{
+  display: flex;
+  
+}
+
+.contactcontainer form .row .field{
+  width: 100%;
+  position: relative;
+  margin:  0 30px 30px 0;
+}
+
+
+.contactcontainer form .row .field input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #4a4a4b;
+  outline: none;
+  font-size: 16px;
+  background-color: #f3f4f6;
+}
+
+.contactcontainer form .row .field input:focus{
+  border-color: #ff0606;
+}
+
+.contactcontainer form .row .field label{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  pointer-events: none;
+  font-size: 16px;
+  transition: 0.5s;
+
+}
+
+.contactcontainer form .row .field input:focus ~ label,
+.contactcontainer form .row .field input:valid ~ label{
+  transform: translateY(-23px);
+  color: #ff0606;
+
+}
+
+.contactcontainer form input[type=submit]{
+  padding: 7px 20px;
+  outline: none;
+  border-radius: 10px;
+  background-color: #4a4a4b;
+  border: none;
+  color: #f3f4f6;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contactcontainer form input[type=submit]:hover{
+  padding: 7px 20px;
+  outline: none;
+  border-radius: 10px;
+  background-color: #ff0606;
+  border: none;
+  color: #ffd700;
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.7s;
+  font-size: 15px;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+}
+
+/* STYLING ENDS FOR CONTACT US PAGE ! */
+
+
+/* STYLING FOR FOOTER STARTS HERE */
+#social-networks {
+  background-color: #F3F4F6;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+#social-networks .fa-brands{
+  color: #4a4a4b;
+  align-items: center;
+  font-size: 30px;
+  /* background-color: #4a4a4b; */
+}
+
+#social-networks .fa-brands:hover{
+  color: #ff0606;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 0.9s;
+}
+ 
+/* STYLING FOR FOOTER ENDS HERE! */
+
+/* STYLING FOR RESPONSIVE DESIGN START HERE! */
+
+@media (max-width: 576px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  #social-networks {
+    display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+
+  }
+}
