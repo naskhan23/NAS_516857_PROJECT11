@@ -12,11 +12,12 @@ The online store is built with only use of HTML and CSS.
 
 ## Wireframe
 
-![Homepage](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/79beb5f8-8e88-4c13-9a6b-9cc635a112bb)
+![Homepage](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/00668bc8-fdc0-47f5-826d-2bb12abad6ce)
 
-![ProductPage](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/788476c7-aee0-4a2a-a613-86a17eda0e5b)
+![ProductPage](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/6b04465c-3e67-49d2-83e3-36c58582a0b1)
 
-![ContactUsPage](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/25d48480-e79f-4718-947c-066f2e3335a3)
+
+![ContactUsPage](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/17f0432f-dca0-49d9-a69a-d58ef4a0e04a)
 
 
 ## Pages
@@ -53,12 +54,14 @@ Apple product images are own by Apple Inc.
 
 ## W3C CODE - (HTML & CSS) - CHECKER
 
-![IndexHTMLW3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/b89fa11c-3d81-42cf-9fd8-063e9306ad25)
+![IndexHTMLW3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/a9689673-2f10-4c55-bd3d-c9981d7bd995)
 
-![ProductsHTMLW3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/13109334-f62b-451a-97e3-ac2f9311ea70)
+![ProductsHTMLW3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/a54bc170-07c6-400c-8b7b-ed9110ae33fb)
 
-![ContactHMLW3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/b0b58b32-7c45-4eba-b8d0-ed02956ef0ff)
+![ContactHMLW3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/befe81cb-31ed-4985-8d89-b814f7120c79)
 
-![StyleCSS_W3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT_1/assets/147349178/644674dd-2f61-4491-8ced-b87bd736a0ca)
+![StyleCSS_W3C_VALIDATOR](https://github.com/naskhan23/NAS_516857_PROJECT11/assets/147349178/fb0b1a74-6f57-4cd8-b4bb-896bb6710feb)
+
+
 
 
